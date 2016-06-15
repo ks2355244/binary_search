@@ -16,9 +16,7 @@
 		m_index = ((high_index + low_index)/2)
 		m = array[m_index]
 	
-	
 		until input == m
-	
 				if input > m # IF input is HIGHER than "M"
 					low_index = m_index
 					m_index = ((high_index + low_index)/2)
@@ -28,7 +26,6 @@
 					m_index = ((high_index + low_index)/2)
 					m = array[m_index]
 				end
-	
 		end
 		return m_index
 	end
